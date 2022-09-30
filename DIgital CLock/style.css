@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(./nature.jpg);
+    background-size: cover;    
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4PX;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin: 8px;
+    position: relative;
+}
+
+span{
+    font-size: 1.5rem;
+    display: flex;
+    height:80px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: crimson;
+    color: white;
+}
+
+#text{
+    height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    background-color: chocolate;
+    opacity: 0.8;
+}
+
+#ampm{
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    width: 50px;
+    letter-spacing: 0.2rem;
+    background-color: chocolate;
+    opacity: .8;
+}
